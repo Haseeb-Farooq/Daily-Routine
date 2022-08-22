@@ -68,7 +68,7 @@ function App() {
     <>
   <Router>
 
-   <Header nav='My Navbar' searchbar={true}/>
+   <Header nav='Daily Routine' searchbar={true}/>
    
    <Switch>
       <Route exact path="/" render={()=>{
